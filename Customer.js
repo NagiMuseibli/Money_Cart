@@ -4,6 +4,6 @@ class Customer extends MigrosBase {
     }
 
     calculate() {
-        super.calculate();
+        return super.calculate();
     }
 }
