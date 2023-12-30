@@ -30,7 +30,7 @@ if (result) {
     amountPaid = customer.calculate();
 
     alert(
-        `Customer informations: ${name} ${surname}
+        `Customer informations: ${customer.getName()} ${customer.getSurName()}
         Amount paid: ${amountPaid}
         `
     )

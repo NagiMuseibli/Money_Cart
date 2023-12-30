@@ -33,7 +33,13 @@ class MigrosBase {
         }
         return false;
     }
-    check() {
 
+    getName() {
+        return this.firstName;
     }
+
+    getSurName() {
+        return this.lastName;
+    }
+
 }
