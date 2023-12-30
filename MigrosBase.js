@@ -33,4 +33,7 @@ class MigrosBase {
         }
         return false;
     }
+    check() {
+
+    }
 }
